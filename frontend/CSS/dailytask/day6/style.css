@@ -1,0 +1,29 @@
+header{
+    color: red;
+
+    background-color: rgb(216, 203, 203);
+    font-size: 30px;
+}
+fieldset{
+    width: 50%;
+    margin: 2% 25%;
+}
+.main{
+    margin: 2% 30%;
+    width: 300px;
+
+}
+input{
+    width: 300px;
+    height: 25px;
+    
+}
+.main input{
+    border-width: 3px;
+    border-radius: 5px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}

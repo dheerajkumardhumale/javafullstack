@@ -1,0 +1,24 @@
+
+@keyframes x{
+    0% {
+        top: 0;
+        left: 0;
+    }
+    100% {
+        top: 80%;
+        left: 80%;
+    }
+}
+
+.ball {
+    animation-name: x;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+}

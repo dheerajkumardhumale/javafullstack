@@ -1,0 +1,41 @@
+ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+.container{
+   
+    margin: 0px 20px;    /*top-bottom left-right*/ 
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+nav ul li a::after{
+    position: absolute;
+    content: ' ';
+    width: 0%;
+    color: red;
+    height: 6px;
+    bottom: -6px;
+    left: 0px;
+    background-color: red;
+    transition: 2s;
+}
+nav ul li a:hover::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    color: red;
+    background-color: red;
+    height: 2px;
+}

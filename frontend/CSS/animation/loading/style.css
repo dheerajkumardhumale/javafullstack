@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    display: flex;
+    gap: 15px;
+   
+    
+}
+.loader div{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(180deg, magenta,aqua);
+    border-radius:50%;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 1px 1px 2px 2px red;
+    
+}
+.loader div:hover{
+    background: linear-gradient(rgb(159, 224, 54),rgb(218, 46, 103));
+    transition: 1s;
+    transform: scale(200%);
+}
+.loader div:nth-child(1){
+    animation-delay: 0.2s;
+}
+.loader div:nth-child(2){
+    animation-delay: 0.4s;
+}
+.loader div:nth-child(3){
+    animation-delay: 0.6s;
+}
+.loader div:nth-child(4){
+    animation-delay: 0.8s;
+}
+.loaderdiv:nth-child(5){
+    animation-delay: 1s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0) ;
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}

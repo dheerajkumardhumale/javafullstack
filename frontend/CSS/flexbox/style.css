@@ -1,0 +1,22 @@
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;   
+    display: flex; 
+    flex-direction: row;
+    gap: 1px;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: center;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+
+}
+.box3{
+    flex-basis: 100px;
+}

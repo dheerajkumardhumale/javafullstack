@@ -1,0 +1,8 @@
+html stands for hypertext markup language.
+GML ---->SGML-----> html
+current HTML is HTML5
+HTML consists of tag. there are two representation of tas
+<opentag>,</closetag>
+htl code will be between <HTML> and </html>
+html consists head and body
+head is used for meta data and body is used for 

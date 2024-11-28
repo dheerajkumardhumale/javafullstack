@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="">
+       
+    <input type="text" placeholder="enter name" required><br><br>
+    <input type="text" placeholder="enter age" min="18" max="50" required><br><br>
+    <input type="text" placeholder="password" pattern="[A-Za-z]" minlength="8" maxlength="16" required>
+    <p>please choose gender</p>
+    <input type="radio" name="gender" id="m">
+    <label for="m">Male</label>
+    <input type="radio" name="gender" id="f">
+    <label for="f">female</label><br>
+    <p>choose branch</p>
+    <input type="radio" name="branch" id="MPC">
+    <label for="MPC">MPC</label>
+    <input type="radio" name="branch" id="BIPC">
+    <label for="BIPC">BIPC</label>
+    <input type="radio" name="branch" id="MEC">
+    <label for="MEC">MEC</label>
+    <input type="radio" name="branch" id="CEC">
+    <label for="CEC">CEC</label>
+    <!--checkboxes used for multiple options-->
+    <div>
+        <p>choose the languages you know</p>
+    <input type="checkbox" name="lang" id="en">
+    <label for="en">English</label>
+    <input type="checkbox" name="lang" id="hi">
+    <label for="en">Hindi</label>
+    <input type="checkbox" name="lang" id="te">
+    <label for="en">Telugu</label>
+    <input type="checkbox" name="lang" id="ma">
+    <label for="en">Marathi</label>
+</div><br>
+<!--create a checkbox list toselect hobbies-->
+<div>
+    <input type="checkbox" name="hobbies" id="mv">
+    <label for="mv">watching movies</label>
+    <input type="checkbox" name="hobbies" id="cr">
+    <label for="cr">cricket</label>
+    <input type="checkbox" name="hobbies" id="vg">
+    <label for="vg">video games</label>
+    <input type="checkbox" name="hobbies" id="ch">
+    <label for="ch">chess</label>
+</div>
+<!--drop downs-->
+<p> select branch</p>
+<select name="branch" id="" multiple size="3">
+  <optgroup label="engg">
+    <option value="EEE">EEE</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="AIML">AIML</option>
+    <option value="MECH">MECH</option>
+  </optgroup>
+   <optgroup label="Degree">
+    <option value="BSC">BSC</option>
+    <option value="BCA">BCA</option>
+    <option value="BCOM">BCOM</option>
+   </optgroup>
+   <optgroup label="masters">
+    <option value="MBA">MBA</option>
+    <option value="MCA">MCA</option>
+   </optgroup>
+    
+</select>
+<!--write a drop down to choose vehicle for test drive-->
+<p>choose vehcile</p>
+<select name="vehicle" id="" >
+    <option value="2wheeler">two-wheeler</option>
+    <option value="4wheeler">four-wheeler</option>
+    <option value="6wheeler">six wheeler</option>
+</select><br><br>
+<button>submit</button>
+</form>
+</body>
+</html>

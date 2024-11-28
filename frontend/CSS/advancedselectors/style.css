@@ -1,0 +1,10 @@
+.myDiv>h1{
+    background-color: red;
+}
+/*.myDiv h1{
+    background-color:;
+}*/
+/*h1+p{
+    background-color: violet;
+}*/
+h1~p

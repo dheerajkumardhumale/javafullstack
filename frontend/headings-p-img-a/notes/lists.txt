@@ -1,0 +1,27 @@
+lists are used to list of certain items.
+eg: dropdown list, shopping list, kirana, voter, menu,order, students, expenses, employee, marklist, contact list, attendance, course
+list in html are three types 
+1. ordered list:
+items are in this lists are specific 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. definition list: definition lists are used to define certain words, events, historical milestones
+it is reprsented by 'dl'
+
+

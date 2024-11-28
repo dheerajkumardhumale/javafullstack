@@ -1,0 +1,62 @@
+header img{
+    height: 80px;
+}
+.default{
+    height: 30px;
+    border-radius: 50%;
+}
+.lock{
+    height: 30px;
+    border-radius: 50%;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    box-shadow: 2px 3px 4px grey, -2px -3px 4px grey;
+    border-radius: 10px;
+}
+main img{
+    height: 400px;
+
+    
+}
+.eimg{
+    width: 50%;
+}
+input{
+    border: none;
+}
+
+.uname{
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+}
+.pword{
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+}
+.login{
+    border: 1px solid slategrey;
+    border-radius: 5px;
+    height: px;
+}
+.mlogin{
+    margin: 70px;
+    width: 50%;
+}
+.last img{
+  
+    height: 30px;
+}
+button{
+    padding: 10px;
+    border: 1px solid green;
+}

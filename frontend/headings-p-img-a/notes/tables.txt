@@ -1,0 +1,9 @@
+tables are used to represent the data in rows and columns.
+table uses 'table' tag
+a table contains table rows as tr tag
+a tr may contain the(table head) or td(table data)
+th table head will be automatically middle and bold
+td raw table data 
+we can use caption to puttable a caption
+to combine rows, we can rowspan attribute
+to combine column, we can use colspan attribute

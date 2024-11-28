@@ -1,0 +1,6 @@
+semantic elements are introduced in html by html 5. 
+these block elements does not create any impact to ui but using them search engine can understand your 
+code effectively.
+eg: header,fopter,main,nav,aside,section,article
+classes and id : To identify an element , we can define an attribute class or id. 
+multiple elements same class name or for one element , we can assign multiple class names.
