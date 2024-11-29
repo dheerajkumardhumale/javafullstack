@@ -87,7 +87,7 @@ header{
 }
 .grid-view{
     display: grid;
-    grid-template-columns: 10% 10% 10% 10%;
+    grid-template-columns: 10% 10% 10% 10%2;
 }
 nav ul li a{
     text-decoration: none;
